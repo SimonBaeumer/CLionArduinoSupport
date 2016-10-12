@@ -55,4 +55,5 @@ https://raw.githubusercontent.com/platformio/platformio/develop/scripts/99-platf
 ## Links
 
 [Blog post about Arduino integration by "Just antoher dev blog"](http://jandevblog.blogspot.de/2016/01/how-to-use-intellij-idea-to-develop-and.html)
+
 [platformio documentation for CLion integration](http://docs.platformio.org/en/stable/ide/clion.html)
