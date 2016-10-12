@@ -1,6 +1,6 @@
 <project default="compile" basedir=".">
 
-    <target name="compile" description="compile the source">
+    <target name="compile" description="Compile source code">
         <exec executable="platformio">
             <arg value="-f"/>
             <arg value="-c"/>
@@ -9,7 +9,7 @@
         </exec>
     </target>
 
-    <target name="clean" description="clean the source">
+    <target name="clean" description="Clean source code">
         <exec executable="platformio">
             <arg value="-f"/>
             <arg value="-c"/>
@@ -20,7 +20,7 @@
         </exec>
     </target>
 
-    <target name="upload" description="upload binaries to arduino" depends="compile">
+    <target name="upload" description="Upload binaries to your Arduino" depends="compile">
         <exec executable="platformio">
             <arg value="-f"/>
             <arg value="-c"/>
