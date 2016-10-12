@@ -4,7 +4,7 @@
         <exec executable="platformio">
             <arg value="-f"/>
             <arg value="-c"/>
-            <arg value="intellij"/>
+            <arg value="clion"/>
             <arg value="run"/>
         </exec>
     </target>
@@ -13,7 +13,7 @@
         <exec executable="platformio">
             <arg value="-f"/>
             <arg value="-c"/>
-            <arg value="intellij"/>
+            <arg value="clion"/>
             <arg value="run"/>
             <arg value="--target"/>
             <arg value="clean"/>
@@ -24,7 +24,7 @@
         <exec executable="platformio">
             <arg value="-f"/>
             <arg value="-c"/>
-            <arg value="intellij"/>
+            <arg value="clion"/>
             <arg value="run"/>
             <arg value="--target"/>
             <arg value="upload"/>

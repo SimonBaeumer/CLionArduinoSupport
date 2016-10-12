@@ -35,7 +35,17 @@ uno                   ATMEGA328P     16Mhz     31kB    2kB    Arduino Uno
 
 ## Compiling and uploading
 
-Type `ant upload` from your project root and it will be all done!
+### Via Ant - only with CLion
+
+Run `ant upload` from your project root and it will be all done!
+
+### Via CLion
+
+Use the `PLATFORMIO_UPLOAD` configuration and use build to upload and compile your sketch, `Ctrl + F9`. (DO NOT USE RUN OR DEBUG)
+
+### Via platformio
+
+Run `platformio run --target upload`
 
 ### Permission issues
 
