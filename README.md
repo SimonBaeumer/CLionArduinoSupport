@@ -9,7 +9,7 @@
 
 ## Setup
 
-Install `plaformio` via `python-pip`
+Install `platformio` via `python-pip`
 
 Run in your application folder:
 `platformio init --ide clion --board %type%` 
