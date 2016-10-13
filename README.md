@@ -5,8 +5,11 @@
  - Ant
  - platformio
  - python-pip
+ - IntelliJ Plugin Serial Monitor
 
 ## Setup
+
+Install `plaformio` via `python-pip`
 
 Run in your application folder:
 `platformio init --ide clion --board %type%` 
@@ -51,6 +54,14 @@ Run `platformio run --target upload`
 
 In some cases you must add `udev` rules, see:
 https://raw.githubusercontent.com/platformio/platformio/develop/scripts/99-platformio-udev.rules
+
+## Serial Monitor
+
+Install the Serial Monitor plugin in your IDE. You can find it [here](https://plugins.jetbrains.com/plugin/8031?pr=idea).
+
+Configure it under `File | Settings | Tools | Serial Monitor` and configure your port from the drop down list.
+
+`platformio` can not upload your application to your ardunio while the Serial Monitor is connected.
 
 ## Links
 
