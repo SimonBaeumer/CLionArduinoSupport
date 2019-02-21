@@ -1,5 +1,7 @@
 # Arduino CLion setup
 
+This is a tutorial on how to setup your environment to develop in CLion IDE for arduino.
+
 ## Dependencies
 
  - Ant
